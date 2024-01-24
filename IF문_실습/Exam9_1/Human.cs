@@ -18,5 +18,9 @@ namespace Exam9_1
 
         public void Drawing() { System.Console.WriteLine("I'm drawing a picture"); }
         public void Study() { System.Console.WriteLine("I'm studying CSharp"); }
+        public override string ToString()
+        {
+            return $"{base.ToString()} : 저의 주소는 {Address}";
+        }
     }
 }

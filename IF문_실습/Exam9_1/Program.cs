@@ -18,29 +18,41 @@ namespace Exam9_1
             //나이, 성별, 몸무게, 
 
             //Object
-
-            Student st = new Student();
-            Console.WriteLine(st.ToString());
-            Human h1 = st;  //h1은 자식인 student를 가리키고 있다
-            //Student st2 = h1 as Student;    // as는 컴파일 타입 전에 읽는다.
-            //Student st3 = (Student)h1;
-            Human h2 = new Human();
-            Student st2 = h1 as Student;
-
-            Animal ani1 = new Animal();
-            Animal ani2 = new Animal();
-            bool ret = ani1.Equals(ani2);
-            int c = 1;
+            Student a = new Student();
+            a.Grade = 1;
+            a.StudentClass = 7;
+            a.StudentId = 11;
+            a.Name = "홍길동";
+            a.Address = "서울특별시 서울";
 
 
-            Type type = ani1.GetType();
-            Console.WriteLine("type test :" + type.FullName);
-            Console.WriteLine("ani1 " + ani1.GetType());
-            Console.WriteLine();
+            Human h = a;
+            Console.WriteLine(h);
+            Console.WriteLine(a);
 
 
-            //bool ret = ani1 is Human;
-            //int a = 1;
+            //Student st = new Student();
+            //Console.WriteLine(st.ToString());
+            //Human h1 = st;  //h1은 자식인 student를 가리키고 있다
+            ////Student st2 = h1 as Student;    // as는 컴파일 타입 전에 읽는다.
+            ////Student st3 = (Student)h1;
+            //Human h2 = new Human();
+            //Student st2 = h1 as Student;
+
+            //Animal ani1 = new Animal();
+            //Animal ani2 = new Animal();
+            //bool ret = ani1.Equals(ani2);
+            //int c = 1;
+
+
+            //Type type = ani1.GetType();
+            //Console.WriteLine("type test :" + type.FullName);
+            //Console.WriteLine("ani1 " + ani1.GetType());
+            //Console.WriteLine();
+
+
+            ////bool ret = ani1 is Human;
+            ////int a = 1;
         }
     }
 }

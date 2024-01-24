@@ -22,5 +22,10 @@ namespace Exam9_1
                 }
         public void Eat() { System.Console.WriteLine("I'm eating now"); }
         public void Walk() { System.Console.WriteLine("I'm walking on the street"); }
+
+        public override string ToString()
+        {
+            return "I'm Animal";
+        }
     }
 }

@@ -43,12 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractClass.cs" />
-    <Compile Include="ILogger.cs" />
-    <Compile Include="ILogger3.cs" />
-    <Compile Include="ILogger2.cs" />
-    <Compile Include="IRunnable.cs" />
+    <Compile Include="BoolExam\BoolExam.cs" />
+    <Compile Include="BoxingUnboxing\BoxingUnboxing.cs" />
+    <Compile Include="FloatingPoint\Decimal.cs" />
+    <Compile Include="FloatingPoint\FloatingPoint.cs" />
+    <Compile Include="IntegerConversion\Exam_1.cs" />
+    <Compile Include="IntegerConversion\Exam_2.cs" />
+    <Compile Include="IntegerConversion\Exam_3.cs" />
+    <Compile Include="IntegerConversion\Exam_4.cs" />
+    <Compile Include="IntegerConversion\Exam_5.cs" />
+    <Compile Include="Interface&amp;Abstract\AbstractClass.cs" />
+    <Compile Include="Interface&amp;Abstract\ILogger.cs" />
+    <Compile Include="Interface&amp;Abstract\ILogger3.cs" />
+    <Compile Include="Interface&amp;Abstract\ILogger2.cs" />
+    <Compile Include="Interface&amp;Abstract\IRunnable.cs" />
+    <Compile Include="MainApp.cs" />
+    <Compile Include="ObjectExam\ObjectExam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringExam\MultiLineExam.cs" />
+    <Compile Include="StringExam\StringExam.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

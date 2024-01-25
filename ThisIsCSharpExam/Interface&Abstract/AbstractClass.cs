@@ -26,13 +26,13 @@ namespace ThisIsCSharpExam
             PrivateMethodA();
         }
     }
-    class MainApp
-    {
-        static void Main(string[] args)
-        {
-            AbstractBase obj = new Derived();
-            obj.AbstractMethodA();
-            obj.PublicMethodA();
-        }
-    }
+    //class MainApp
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        AbstractBase obj = new Derived();
+    //        obj.AbstractMethodA();
+    //        obj.PublicMethodA();
+    //    }
+    //}
 }

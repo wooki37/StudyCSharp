@@ -22,7 +22,7 @@ namespace ThisIsCSharpExam
         }
         public void WriteLog(string format, params Object[] args)
         {
-            String message = String.Format(format, args);
+            string message = string.Format(format, args);
             Console.WriteLine("{0} {1}", DateTime.Now.ToLocalTime(), message);
         }
     }

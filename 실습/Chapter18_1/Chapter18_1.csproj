@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{29FF125E-CB8B-4745-B48E-4823BA372A80}</ProjectGuid>
+    <ProjectGuid>{C81F9E6B-4F77-4DD0-B331-B0D1FB681D3D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ThisIsCSharpExam</RootNamespace>
-    <AssemblyName>ThisIsCSharpExam</AssemblyName>
+    <RootNamespace>Chapter18_1</RootNamespace>
+    <AssemblyName>Chapter18_1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,25 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ch.03\BoolExam\BoolExam.cs" />
-    <Compile Include="Ch.03\BoxingUnboxing\BoxingUnboxing.cs" />
-    <Compile Include="Ch.03\FloatingPoint\Decimal.cs" />
-    <Compile Include="Ch.03\FloatingPoint\FloatingPoint.cs" />
-    <Compile Include="Ch.03\IntegerConversion\Exam_1.cs" />
-    <Compile Include="Ch.03\IntegerConversion\Exam_2.cs" />
-    <Compile Include="Ch.03\IntegerConversion\Exam_3.cs" />
-    <Compile Include="Ch.03\IntegerConversion\Exam_4.cs" />
-    <Compile Include="Ch.03\IntegerConversion\Exam_5.cs" />
-    <Compile Include="Ch.03\Interface&amp;Abstract\AbstractClass.cs" />
-    <Compile Include="Ch.03\Interface&amp;Abstract\ILogger.cs" />
-    <Compile Include="Ch.03\Interface&amp;Abstract\ILogger3.cs" />
-    <Compile Include="Ch.03\Interface&amp;Abstract\ILogger2.cs" />
-    <Compile Include="Ch.03\Interface&amp;Abstract\IRunnable.cs" />
-    <Compile Include="MainApp.cs" />
-    <Compile Include="Ch.03\ObjectExam\ObjectExam.cs" />
+    <Compile Include="Exam18_1.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ch.03\StringExam\MultiLineExam.cs" />
-    <Compile Include="Ch.03\StringExam\StringExam.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

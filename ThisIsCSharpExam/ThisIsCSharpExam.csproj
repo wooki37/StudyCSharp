@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="Ch.03\BoolExam\BoolExam.cs" />
     <Compile Include="Ch.03\BoxingUnboxing\BoxingUnboxing.cs" />
+    <Compile Include="Ch.03\ConstantExam\ConstantExam.cs" />
+    <Compile Include="Ch.03\CTSExam\CTSExam.cs" />
+    <Compile Include="Ch.03\EnumExam\Exam_03.cs" />
+    <Compile Include="Ch.03\EnumExam\Exam_02.cs" />
+    <Compile Include="Ch.03\EnumExam\Exam_01.cs" />
     <Compile Include="Ch.03\FloatingPoint\Decimal.cs" />
     <Compile Include="Ch.03\FloatingPoint\FloatingPoint.cs" />
     <Compile Include="Ch.03\IntegerConversion\Exam_1.cs" />
@@ -57,6 +62,15 @@
     <Compile Include="Ch.03\Interface&amp;Abstract\ILogger3.cs" />
     <Compile Include="Ch.03\Interface&amp;Abstract\ILogger2.cs" />
     <Compile Include="Ch.03\Interface&amp;Abstract\IRunnable.cs" />
+    <Compile Include="Ch.03\NullableExam\NullableExam.cs" />
+    <Compile Include="Ch.03\StringExam\StringFormatBasic.cs" />
+    <Compile Include="Ch.03\StringExam\StringFormatDatetime.cs" />
+    <Compile Include="Ch.03\StringExam\StringFormatNumber.cs" />
+    <Compile Include="Ch.03\StringExam\StringInterpolation.cs" />
+    <Compile Include="Ch.03\StringExam\StringModify.cs" />
+    <Compile Include="Ch.03\StringExam\StringSearch.cs" />
+    <Compile Include="Ch.03\StringExam\StringSlice.cs" />
+    <Compile Include="Ch.03\UsingVar\UsingVar.cs" />
     <Compile Include="MainApp.cs" />
     <Compile Include="Ch.03\ObjectExam\ObjectExam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

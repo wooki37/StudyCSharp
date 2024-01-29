@@ -71,6 +71,11 @@
     <Compile Include="Ch.03\StringExam\StringSearch.cs" />
     <Compile Include="Ch.03\StringExam\StringSlice.cs" />
     <Compile Include="Ch.03\UsingVar\UsingVar.cs" />
+    <Compile Include="Ch.04\AssignmentOperator\AssignmentOperatorExam.cs" />
+    <Compile Include="Ch.04\BitWiseOperator\BitWiseOperatorExam.cs" />
+    <Compile Include="Ch.04\NullCoalescing\NullCoalescingExam.cs" />
+    <Compile Include="Ch.04\NullConditionalOperator\NullConditionalOperatorExam.cs" />
+    <Compile Include="Ch.04\ShiftOperator\ShiftOperatorExam.cs" />
     <Compile Include="MainApp.cs" />
     <Compile Include="Ch.03\ObjectExam\ObjectExam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

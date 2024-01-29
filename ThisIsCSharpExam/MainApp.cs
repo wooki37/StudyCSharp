@@ -9,6 +9,11 @@ using ThisIsCSharpExam.Ch._03.EnumExam;
 using ThisIsCSharpExam.Ch._03.NullableExam;
 using ThisIsCSharpExam.Ch._03.StringExam;
 using ThisIsCSharpExam.Ch._03.UsingVar;
+using ThisIsCSharpExam.Ch._04.AssignmentOperator;
+using ThisIsCSharpExam.Ch._04.BitWiseOperator;
+using ThisIsCSharpExam.Ch._04.NullCoalescing;
+using ThisIsCSharpExam.Ch._04.NullConditionalOperator;
+using ThisIsCSharpExam.Ch._04.ShiftOperator;
 
 namespace ThisIsCSharpExam
 {
@@ -16,7 +21,7 @@ namespace ThisIsCSharpExam
     {
         public static void Main()
         {
-            StringInterpolation obj = new StringInterpolation();
+            NullCoalescingExam obj = new NullCoalescingExam();
             obj.Main();
         }
     }

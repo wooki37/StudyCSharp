@@ -1,6 +1,7 @@
 ﻿using ThisIsCSharpExam.Ch._05.ForExam;
 using ThisIsCSharpExam.Ch._05.JumpStatementExam;
 using ThisIsCSharpExam.Ch._06.MethodExam;
+using ThisIsCSharpExam.Ch._19.ThreadExam;
 
 namespace ThisIsCSharpExam
 {
@@ -8,7 +9,7 @@ namespace ThisIsCSharpExam
     {
         public static void Main()
         {
-            UsingOutExam obj = new UsingOutExam();
+            WaitPulse obj = new WaitPulse();
             obj.Main();
         }
     }

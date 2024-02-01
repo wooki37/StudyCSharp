@@ -96,6 +96,14 @@
     <Compile Include="Ch.06\MethodExam\SwapByRefExam .cs" />
     <Compile Include="Ch.06\MethodExam\SwapByValueExam.cs" />
     <Compile Include="Ch.06\MethodExam\UsingOutExam.cs" />
+    <Compile Include="Ch.19\ThreadExam\AbortingThread.cs" />
+    <Compile Include="Ch.19\ThreadExam\BasicThread.cs" />
+    <Compile Include="Ch.19\ThreadExam\InterruptingThread.cs" />
+    <Compile Include="Ch.19\ThreadExam\SideTask.cs" />
+    <Compile Include="Ch.19\ThreadExam\WaitPulse.cs" />
+    <Compile Include="Ch.19\ThreadExam\UsingMonitor.cs" />
+    <Compile Include="Ch.19\ThreadExam\Synchronize.cs" />
+    <Compile Include="Ch.19\ThreadExam\UsingThreadState.cs" />
     <Compile Include="MainApp.cs" />
     <Compile Include="Ch.03\ObjectExam\ObjectExam.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -96,6 +96,11 @@
     <Compile Include="Ch.06\MethodExam\SwapByRefExam .cs" />
     <Compile Include="Ch.06\MethodExam\SwapByValueExam.cs" />
     <Compile Include="Ch.06\MethodExam\UsingOutExam.cs" />
+    <Compile Include="Ch.19\TaskParallelExam\AsyncExam.cs" />
+    <Compile Include="Ch.19\TaskParallelExam\AsyncFileIO.cs" />
+    <Compile Include="Ch.19\TaskParallelExam\ParallelLoop.cs" />
+    <Compile Include="Ch.19\TaskParallelExam\TaskResult.cs" />
+    <Compile Include="Ch.19\TaskParallelExam\UsingTask.cs" />
     <Compile Include="Ch.19\ThreadExam\AbortingThread.cs" />
     <Compile Include="Ch.19\ThreadExam\BasicThread.cs" />
     <Compile Include="Ch.19\ThreadExam\InterruptingThread.cs" />
@@ -114,4 +119,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
 </Project>

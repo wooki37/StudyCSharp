@@ -1,16 +1,13 @@
-﻿using ThisIsCSharpExam.Ch._05.ForExam;
-using ThisIsCSharpExam.Ch._05.JumpStatementExam;
-using ThisIsCSharpExam.Ch._06.MethodExam;
-using ThisIsCSharpExam.Ch._19.ThreadExam;
+﻿using ThisIsCSharpExam.Ch._19.TaskParallelExam;
 
 namespace ThisIsCSharpExam
 {
     public class MainApp
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
-            WaitPulse obj = new WaitPulse();
-            obj.Main();
+            AsyncFileIO obj = new AsyncFileIO();
+            obj.Main(args);
         }
     }
 }

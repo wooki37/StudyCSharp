@@ -1,13 +1,15 @@
-﻿using ThisIsCSharpExam.Ch._19.TaskParallelExam;
+﻿using ThisIsCSharpExam.Ch._06.MethodExam;
+using ThisIsCSharpExam.Ch._07.ClassExam;
+using ThisIsCSharpExam.Ch._19.TaskParallelExam;
 
 namespace ThisIsCSharpExam
 {
     public class MainApp
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            AsyncFileIO obj = new AsyncFileIO();
-            obj.Main(args);
+            Inheritance obj = new Inheritance();
+            obj.Main();
         }
     }
 }

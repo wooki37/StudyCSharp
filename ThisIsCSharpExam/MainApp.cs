@@ -1,6 +1,5 @@
-﻿using ThisIsCSharpExam.Ch._06.MethodExam;
-using ThisIsCSharpExam.Ch._07.ClassExam;
-using ThisIsCSharpExam.Ch._19.TaskParallelExam;
+﻿using ThisIsCSharpExam.Ch._15.LINQ;
+using ThisIsCSharpExam.Ch._16.Reflection;
 
 namespace ThisIsCSharpExam
 {
@@ -8,7 +7,7 @@ namespace ThisIsCSharpExam
     {
         public static void Main()
         {
-            Inheritance obj = new Inheritance();
+            GetTypeExam obj = new GetTypeExam();
             obj.Main();
         }
     }
